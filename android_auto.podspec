@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license          = { :file => 'LICENSE' }
   s.author           = { 'TuNombre' => 'tucorreo@example.com' }
   s.source           = { :git => 'https://github.com/tuusuario/NombreDeTuLibreria.git', :tag => s.version.to_s }
-  s.source_files     = 'Sources/AndroidAutoConnectedDeviceManager/**/*.swift'
+  s.source_files     = 'Sources/**/*.swift'
   s.swift_version    = '5.0'
   s.platform         = :ios, '10.0'
 end

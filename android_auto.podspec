@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { 'TuNombre' => 'tucorreo@example.com' }
   s.source           = { :git => 'https://github.com/tuusuario/NombreDeTuLibreria.git', :tag => s.version.to_s }
   s.source_files     = 'Sources/**/*', 'Sources/AndroidAutoLogger/*'
+  s.dependency       = 'AndroidAutoLogger'
   s.swift_version    = '5.0'
   s.platform         = :ios, '13.0'
 end

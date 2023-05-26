@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.author           = { "Google" => "opensource@google.com" }
   s.source           = { :git => "https://github.com/david2701/android-auto-companion-ios.git", :tag => "#{s.version}" }
   s.swift_version    = "5.0"
-  s.source_files     = "Sources/AndroidAutoCompanionProtos/*.swift"
+  s.source_files     = "Sources/AndroidAutoCompanionProtos/*"
   s.dependency 'Protobuf'
 end
